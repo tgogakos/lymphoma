@@ -1,0 +1,8 @@
+#Notes on Redy...Dave (Cell 2017)
+- The sample size of 400 tumor-normal pairs provided nearly 100% power for
+the discovery of genes mutated in 10% of patients and over 90% power to 
+detect genes mutated in 5% of DLBCL patients. 
+
+-The distribution of somatic alterations in tumor-normal pairs was used to 
+identify 150 putative driver genes that were recurrently mutated in DLBCL. 
+
