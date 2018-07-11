@@ -6,3 +6,24 @@ detect genes mutated in 5% of DLBCL patients.
 -The distribution of somatic alterations in tumor-normal pairs was used to 
 identify 150 putative driver genes that were recurrently mutated in DLBCL. 
 
+-We then defined genetic alterations for all 1,001 DLBCLs corresponding to 
+these 150 genes, identifying variants that meet the criteria for driver mutations.
+
+-We found that these two [ABC and GCB] subgroups shared the vast majority of driver 
+genes at statistically indistinguishable frequencies. 
+
+-The MuTect somatic mutations were used as a hig-quality discovery dataset for
+identifying mutated genes, 
+- Variant filtering criteria:
+  - exonic
+  - not synonymous
+  - somatic
+  - rare and damaging
+  - excluding duplicate frameshifts in multiple samples
+  - not in repetitive regions
+  - not with poor coverage (?)
+  - genotype quality > 30
+  - read depth > 5
+- Driver analysis:
+  i) MutsigCV (driver mutations above background mutation rate)
+  ii) Hotnet2 (subnetworks of genes based on protein interactions
