@@ -41,7 +41,7 @@ h2 = ez.esearch(db="pubmed", term= t, retmax=total_entries)
 r2 = ez.read(h2)
 h2.close()
 # ret_items = sys.argv[2]
-idlist = r2["IdList"]
+idlist = r2["IdList"]   
 
 print("Returning information for {} items".format(len(idlist)))
 

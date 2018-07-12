@@ -27,3 +27,17 @@ identifying mutated genes,
 - Driver analysis:
   i) MutsigCV (driver mutations above background mutation rate)
   ii) Hotnet2 (subnetworks of genes based on protein interactions
+  
+  
+  ----------------  ----------------  ----------------  ----------------
+  #Notes on Chapuy...Shipp (Nature Medicine 2018)
+  - 304 newly diagnosed DLBCLs
+  
+  - We detected muations usign WES from 304 (55% lacked patient-matched normal samples)
+  
+  - filtered germline variants and artifacts from tumor-only samples 
+  
+  - applied MutSig2CV and detected 98 CCGs (q value <0.1)
+  
+  - assessed recurrent SVs using a previously targeted sequencing approach and 
+  a pipeline that included four different algorithms
